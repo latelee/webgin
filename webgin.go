@@ -29,7 +29,7 @@ char* GetName()
 */
 import "C"
 
-var version = "v1.0"
+var version = "v1.1"
 
 func myIndex (c *gin.Context) {
     uname := C.GetName()
